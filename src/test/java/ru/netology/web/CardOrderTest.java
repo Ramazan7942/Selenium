@@ -15,10 +15,6 @@ import static org.openqa.selenium.By.cssSelector;
 public class CardOrderTest {
     private WebDriver driver;
 
-    @BeforeAll
-    public static void setUpAll() {
-        WebDriverManager.chromedriver().setup();
-    }
 
     @BeforeEach
     public void setUp() {
